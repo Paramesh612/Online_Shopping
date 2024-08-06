@@ -1,0 +1,108 @@
+.flexbox_container {
+    display: flex;
+    justify-content: center;
+    background-color: #f5af9362;
+  }
+  .c1,
+  .c3,
+  .c2,
+  .c4,.c5,.c6 {
+    background-color: aliceblue;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+  }
+  .im {
+    margin-top: 20px;
+    height: 150px;
+    width: 260px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+  }
+
+  .company_name {
+    margin: auto;
+    text-align: center;
+  }
+  .star_container {
+    display: flex;
+    justify-content: center;
+  }
+  .star {
+    height: 30px;
+    width: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .price {
+    text-align: center;
+  }
+  .price_symbol {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+  }
+  .price_whole {
+    font-size: 200%;
+  }
+  .og_price {
+    color: #565959;
+  }
+  .nike {
+    height: 36px;
+    width: 130px;
+    background-color: rgb(255, 216, 20);
+    border-radius: 30px;
+    border-width: 0px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .nike:hover {
+    background-color: rgb(208, 177, 22);
+  }
+  .nike:active {
+    opacity: 0.7;
+  }
+  .nike2 {
+    height: 36px;
+    width: 130px;
+    background-color: rgb(255, 141, 20);
+    border-radius: 30px;
+    border-width: 0px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.4s;
+  }
+  .nike2:hover {
+    background-color: rgb(212, 117, 15);
+  }
+  .nike2:active {
+    opacity: 0.84;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9px;
+  }
+  .cart {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .heading{
+    text-align: center;
+    font-family: Garamond, serif;
+    font-style: italic;
+    font-size: 50px;
+    background-color: #f5af9362;
+    padding: 20px;
+    margin: 0px;
+  }
